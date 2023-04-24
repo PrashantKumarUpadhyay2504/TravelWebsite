@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <title>Booking Form</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="icon" href="./favicon_io (2)/favicon_io (1)/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body >
+    <table >
+        <tr>
+            <td>
+                <form action="data.php" method="post" autocomplete="off" onsubmit="onFormSubmit()" style="font-size: large; font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif;">
+                    <div>
+                        <label for="bname">Booker Name</label>
+                        <input type="text" name="bname" id="productCode" placeholder="Your name" autocomplete="on" required>
+                    </div>
+                    <div>
+                        <label for="dname">Destination Name</label>
+                        <input type="text" name="dname" id="product" placeholder="Travelling Destination" required>
+                    </div>
+                    <div>
+                        <label for="qty">Number of Persons</label>
+                        <input type="number" name="qty" id="qty" placeholder="No. of Persons" required>
+                    </div>
+                    <div>
+                        <label for="Price">Number Of Days</label>
+                        <input type="number" name="No_Days" id="perPrice" placeholder="No. of Days" required>
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" name="submit" value="Submit">
+                        <input type="reset" name="reset" value="Reset">
+                    </div>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <!-- <script type="text/javascript" src="./script.js"></script> -->
+</body>
+</html>
