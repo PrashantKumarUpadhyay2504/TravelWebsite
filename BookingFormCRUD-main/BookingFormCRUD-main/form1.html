@@ -13,32 +13,32 @@
     <table >
         <tr>
             <td>
-                <form action="data.php" method="post" autocomplete="off" onsubmit="onFormSubmit()" style="font-size: large; font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif;">
+                <form action="Data.php" method="post" autocomplete="off" onsubmit="onFormSubmit()" style="font-size: large; font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif;">
                     <div>
                         <label for="bname">Booker Name</label>
-                        <input type="text" name="bname" id="productCode" placeholder="Your name" autocomplete="on">
+                        <input type="text" name="bookname" id="productCode" placeholder="Your name" autocomplete="off" required>
                     </div>
                     <div>
                         <label for="dname">Destination Name</label>
-                        <input type="text" name="dname" id="product" placeholder="Travelling Destination" autocomplete="on">
+                        <input type="text" name="destname" id="product" placeholder="Travelling Destination" autocomplete="off" required>
                     </div>
                     <div>
                         <label for="qty">Number of Persons</label>
-                        <input type="number" name="qty" id="qty" >
+                        <input type="number" name="qty" id="qty" placeholder="Number of passenger" required>
                     </div>
                     <div>
                         <label for="Price">Number Of Days</label>
-                        <input type="number" name="Price" id="perPrice" >
+                        <input type="number" name="Days" id="Days" placeholder="No. Of Days to Stay" required>
                     </div>
 
                     <div class="form_action--button">
-                        <input type="submit" value="Submit">
-                        <input type="reset" value="Reset">
+                        <input type="submit" name ="submit">
+                        <input type="reset" name="reset" value="Reset">
                     </div>
                 </form>
 
                 <td>
-                    <table class="list" id="storeList">
+                    <!-- <table class="list" id="storeList">
                         <caption style="font-size: large; font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif;">Bookings</caption>
                         <thead> 
                             <tr style="font-size: medium; font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif;"> 
@@ -51,11 +51,11 @@
                         <tbody>
 
                         </tbody>
-                    </table>
+                    </table> -->
                 </td>
             </td>
         </tr>
     </table>
-    <script type="text/javascript" src="./script.js"></script>
+    <!-- <script type="text/javascript" src="./script.js"></script> -->
 </body>
 </html>
